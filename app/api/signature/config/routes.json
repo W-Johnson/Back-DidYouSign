@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/signatures",
+      "handler": "signature.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/signatures/count",
+      "handler": "signature.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/signatures/:id",
+      "handler": "signature.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/signatures",
+      "handler": "signature.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/signatures/:id",
+      "handler": "signature.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/signatures/:id",
+      "handler": "signature.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
